@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2TAREA12.Views.PageTwo">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Frame BackgroundColor="DarkMagenta" Padding="24" CornerRadius="0">
+                <Label Text="Bienvenido" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+
+            <Label Text="{Binding nombres}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" x:Name="lbnombre" />
+
+            <Label Text="{Binding apellidos}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" x:Name="lbapellidos" />
+
+            <Label Text="{Binding edad}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" x:Name="lbedad" />
+
+            <Label Text="{Binding correo}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" x:Name="lbcorreo" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

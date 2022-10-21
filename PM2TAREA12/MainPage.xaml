@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2TAREA12.MainPage"
+             Visual="Material">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Tarea 1.2" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        
+        <Entry x:Name="txtnombre" Placeholder="Nombres" Keyboard="Text" />
+        <Entry x:Name="txtapellido" Placeholder="Apellidos" Keyboard="Text" />
+        <Entry x:Name="txtedad" Placeholder="Edad" Keyboard="Numeric" />
+        <Entry x:Name="txtcorreo" Placeholder="Correo" Keyboard="Email" />
+        <Button x:Name="btnsegunda" Text="Pagina 2" Clicked="btnsegunda_Clicked" BackgroundColor="DarkMagenta" />
+       
+    </StackLayout>
+
+</ContentPage>
