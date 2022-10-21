@@ -6,18 +6,18 @@
     <ContentPage.Content>
         <StackLayout>
             <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-                <Label Text="Tarea 1.2" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+                <Label Text="Tarea 1.3" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
             </Frame>
         
         <StackLayout VerticalOptions="Center"
                      HorizontalOptions="Center"
                      WidthRequest="450">
-            <Entry x:Name="txtnombre" Placeholder="Nombres" Keyboard="Text" TextColor="White" PlaceholderColor="White" />
-                <Entry x:Name="txtapellido" Placeholder="Apellidos" Keyboard="Text" TextColor="White" PlaceholderColor="White" />
-                <Entry x:Name="txtedad" Placeholder="Edad" Keyboard="Numeric" TextColor="White" PlaceholderColor="White" />
-                <Entry x:Name="txtcorreo" Placeholder="Correo" Keyboard="Email" TextColor="White" PlaceholderColor="White" />
-                <Entry x:Name="txtdireccion" Placeholder="Direccion" Keyboard="Text" TextColor="White" PlaceholderColor="White" />
-                <Button x:Name="guardar" Text="Guardar Empleado" Clicked="btnguardar" BackgroundColor="DarkMagenta" TextColor="White" />
+                <Entry x:Name="txtnombre" Placeholder="Nombres" Keyboard="Text" TextColor="White" PlaceholderColor="White" BackgroundColor="Black"/>
+                <Entry x:Name="txtapellido" Placeholder="Apellidos" Keyboard="Text" TextColor="White" PlaceholderColor="White" BackgroundColor="Black"/>
+                <Entry x:Name="txtedad" Placeholder="Edad" Keyboard="Numeric" TextColor="White" PlaceholderColor="White" BackgroundColor="Black"/>
+                <Entry x:Name="txtcorreo" Placeholder="Correo" Keyboard="Email" TextColor="White" PlaceholderColor="White" BackgroundColor="Black" />
+                <Entry x:Name="txtdireccion" Placeholder="Direccion" Keyboard="Text" TextColor="White" PlaceholderColor="White" BackgroundColor="Black" />
+                <Button x:Name="guardar" Text="Guardar Empleado" Clicked="btnguardar" BackgroundColor="DarkMagenta" TextColor="White"  />
 
             </StackLayout>
         </StackLayout>
